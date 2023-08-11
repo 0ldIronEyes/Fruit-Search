@@ -60,7 +60,7 @@ function useSuggestion(ev) {
 	  }
 }
 
-input.addEventListener('keyup', searchHandler);
+
 
 
 suggestions.addEventListener('click', useSuggestion);
