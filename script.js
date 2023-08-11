@@ -28,13 +28,9 @@ input.addEventListener('input',() =>{
 function search(str) {
 	let results = [];
 	results = fruit.filter(fr => fr.toLowerCase().includes(str.toLowerCase()));
-
 	return results;
 }
 
-function searchHandler(e) {
-
-}
 
 //populates the list of suggestions by creating list items under the suggestions ul. 
 function showSuggestions(results) {

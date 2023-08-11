@@ -2,9 +2,6 @@
    box-sizing: border-box; 
 }
 
-:focus {
- /* TODO */
-}
 
 body {
   height: 100vh;
@@ -12,9 +9,6 @@ body {
   overflow-y: hidden;
 }
 
-input {
- /* TODO */
-}
 
 .search-container {
   position: absolute;
@@ -23,10 +17,7 @@ input {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-.search-container input,
-.search-container .suggestions {
-  /* TODO */
-}
+
 .search-container input {
   height: 30px;
   width: 200px;
@@ -35,9 +26,6 @@ input {
   background-color: #e9d9d975;
   color: #050505b3; 
 
-}
-.search-container .suggestions {
-   /* TODO */
 }
 
 ul {
